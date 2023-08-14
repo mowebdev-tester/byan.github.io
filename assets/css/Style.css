@@ -696,6 +696,11 @@ intro
     padding-left: 12px;
     padding-right: 12px;
   }
+  .header-area .main-nav .logo {
+    width: 120px;
+    height: 65px;
+    color: #1e1e1e;
+  }
   .header-area .main-nav:before {
     display: none;
   }
@@ -706,6 +711,12 @@ intro
   .background-header .main-nav .nav li:last-child {
     display: none;
   }
+  .header-area .main-nav .logo {
+    width: 100px;
+    height: 55px;
+    color: #1e1e1e;
+  }
+
   .header-area .main-nav .nav li:nth-child(6),
   .background-header .main-nav .nav li:nth-child(6) {
     padding-right: 0px;

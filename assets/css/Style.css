@@ -64,7 +64,6 @@ html, body {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   background-color: #fff;
-  height: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -959,11 +958,9 @@ Banner Style
 
 .main-banner {
   background-image: url(../images/intro1.jpg);
-  height: 50%;
-  background-position: center;
   background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+  background-position: right center;
+  background-size: 100% 100%;
 }
 
 

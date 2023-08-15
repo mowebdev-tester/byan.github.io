@@ -994,15 +994,6 @@ Banner Style
   margin-right: 45px;
 }
 
-.main-banner .right-image {
-  text-align: right;
-  position: relative;
-  z-index: 20;
-}
-
-.main-banner .right-image img {
-  max-width: 593px;
-}
 
 
 

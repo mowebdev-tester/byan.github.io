@@ -1004,7 +1004,7 @@ Banner Style
 @media (max-width: 767px){
   .main-banner p{
     text-align: center;
-    margin: 30px;
+    margin: 10px;
   }
 }
 

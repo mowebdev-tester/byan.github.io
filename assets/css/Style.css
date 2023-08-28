@@ -2001,10 +2001,6 @@ footer p a {
   .main-banner:before {
     display: none;
   }
-  .main-banner .right-image {
-    margin: 30px auto 0px auto;
-    text-align: center;
-  }
   .features-item {
     margin-bottom: 45px;
   }

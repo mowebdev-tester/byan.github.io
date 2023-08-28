@@ -1002,8 +1002,9 @@ Banner Style
   margin-right: 45px;
 }
 @media (max-width: 767px){
-  .main-banner{
+  .main-banner p{
     text-align: center;
+    margin: 10px;
   }
 }
 

@@ -743,6 +743,40 @@ intro
   .header-area.header-sticky .nav li.search-icon a {
     width: 100%;
   }
+  @media (max-width: 767px) {
+  .main-nav .menu-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+  }
+
+  .main-nav .nav {
+    display: none; /* Hide the menu by default */
+    flex-direction: column; /* Arrange items vertically */
+    position: absolute;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    background-color: #fff;
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  }
+
+  .main-nav.active .nav {
+    display: flex; /* Show the menu when active */
+  }
+
+  .menu-trigger {
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+  }
+
+  .menu-trigger span {
+    margin-left: 10px;
+  }
+}
   
   
   .header-area {

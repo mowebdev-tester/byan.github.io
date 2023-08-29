@@ -744,14 +744,13 @@ intro
     width: 100%;
   }
 @media (max-width: 767px) {
-  .main-nav .nav {
-    flex-wrap: wrap; /* Allow items to wrap to a second line */
-    justify-content: space-between;
+  .menu-wrapper .nav {
+    flex-wrap: wrap;
   }
 
-  .main-nav .nav li {
-    width: 48%; /* Adjust the width as needed for spacing */
-    margin-bottom: 10px; /* Add some space between items */
+  .menu-wrapper .nav li {
+    width: 48%;
+    margin-bottom: 10px;
   }
 
   .menu-trigger {

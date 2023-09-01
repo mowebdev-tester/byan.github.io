@@ -916,6 +916,8 @@
       });
       if (!isActive) {
         content.classList.add('active');
+        // Scroll to the opened content smoothly
+        content.scrollIntoView({ behavior: 'smooth' });
       }
     }
   }

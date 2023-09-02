@@ -743,27 +743,7 @@ intro
   .header-area.header-sticky .nav li.search-icon a {
     width: 100%;
   }
-@media (max-width: 767px) {
-  .menu-wrapper .nav {
-    flex-wrap: wrap;
-  }
-
-  .menu-wrapper .nav li {
-    width: 48%;
-    margin-bottom: 10px;
-  }
-
-  .menu-trigger {
-    display: flex;
-    cursor: pointer;
-    align-items: center;
-  }
-
-  .menu-trigger span {
-    margin-left: 10px;
-  }
 }
-  
   
   .header-area {
     background-color: #fff;

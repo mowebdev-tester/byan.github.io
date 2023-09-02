@@ -709,7 +709,7 @@ intro
 @media (max-width: 992px) {
   .header-area .main-nav .nav li:last-child  ,
   .background-header .main-nav .nav li:last-child {
-    display: none;
+    background-color: #f7f7f7;
   }
   .header-area .main-nav .logo {
     width: 100px;

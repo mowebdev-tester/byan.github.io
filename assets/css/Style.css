@@ -1732,22 +1732,22 @@ Clients
 Testimonial
 --------------------------------------------- 
 */
-  .testimonialls {
+  .testimonials {
     background-color: #fff;
     padding: 50px 0;
     text-align: center;
     padding-top: 80px;
   }
-  .testimonialls .section-heading {
+  .testimonials .section-heading {
   text-align: center;
   margin-bottom: 80px;
 }
 
-  .testimonialls .section-heading .line-dec {
+  .testimonials .section-heading .line-dec {
   margin: 0 auto;
 }
 
-  .testimonialls h2 {
+  .testimonials h2 {
     font-size: 24px;
     margin-bottom: 30px;
     color: #000;
@@ -1759,7 +1759,7 @@ Testimonial
     align-items: center;
   }
 
-  .testimoniall {
+  .testimonial {
     background-color: #A20702;
     border-radius: 10px;
     padding: 20px;
@@ -1770,27 +1770,64 @@ Testimonial
     margin-left: 30px;
   }
 
-  .testimoniall p {
+  .testimonial p {
     font-size: 12px;
     color: #fff;
     margin-bottom: 10px;
     font-weight: 400;
   }
-  .testimoniall em{
+  .testimonial em{
     font-size: 20px;
     color: #fff;
     font-weight: 700;
   }
 
-  .testimoniall .author {
+  .testimonial .author {
     font-size: 14px;
     color: #fff;
     font-weight: 700;
   }
   @media (max-width: 768px) {
-  .testimoniall {
+  .testimonial {
     flex: 1 1 100%;
   }
+}
+/* Style for circular navigation arrows */
+.testimonial-arrows {
+  text-align: center;
+  margin-top: 20px; /* Add spacing above the arrows */
+}
+
+.prev-arrow,
+.next-arrow {
+  display: inline-block;
+  width: 40px; /* Adjust the size of the circular arrows */
+  height: 40px; /* Adjust the size of the circular arrows */
+  border-radius: 50%; /* Make them circular */
+  background-color: #A20702; /* Background color for the arrows */
+  color: #fff; /* Text color for the arrows */
+  font-size: 20px; /* Adjust the arrow icon size */
+  line-height: 40px; /* Center the icon vertically */
+  margin: 0 10px; /* Add spacing between the arrows */
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.prev-arrow:hover,
+.next-arrow:hover {
+  background-color: #000; /* Change color on hover */
+}
+
+/* Customize the arrow icons if needed */
+.prev-arrow i,
+.next-arrow i {
+  font-weight: bold;
+}
+
+/* Adjust the testimonial section's position */
+.testimonials {
+  position: relative;
+  padding-top: 40px; /* Add spacing between the arrows and testimonials */
 }
 
 /* 

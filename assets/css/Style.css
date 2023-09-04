@@ -1806,7 +1806,7 @@ Testimonial
   height: 40px; /* Adjust the height as needed */
   line-height: 40px; /* Vertically center the arrow icon */
   position: absolute;
-  top: 0%;
+  top: -10%;
   transform: translateY(-50%);
 }
 
@@ -1828,7 +1828,7 @@ Testimonial
   height: 40px; /* Adjust the height as needed */
   line-height: 40px; /* Vertically center the arrow icon */
   position: absolute;
-  top: 0%;
+  top: -10%;
   transform: translateY(-50%); /* Change background color on hover */
   left: 0;
 }
@@ -1841,7 +1841,7 @@ Testimonial
   height: 40px; /* Adjust the height as needed */
   line-height: 40px; /* Vertically center the arrow icon */
   position: absolute;
-  top: 0%;
+  top: -10%;
   transform: translateY(-50%); /* Change background color on hover */
   right: 0;
 }

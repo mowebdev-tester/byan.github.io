@@ -1794,16 +1794,14 @@ Testimonial
   }
 }
 
-/* Add this CSS for styling and positioning the arrows */
 .testimonial-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+  position: relative;
   margin-top: 20px;
+  text-align: center;
 }
 
-.fa-chevron-left,
-.fa-chevron-right {
+.testimonial-prev,
+.testimonial-next {
   background-color: #A20702;
   border-radius: 50%;
   width: 40px;
@@ -1813,10 +1811,22 @@ Testimonial
   justify-content: center;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
 }
 
-.fa-chevron-left:hover,
-.fa-chevron-right:hover {
+.testimonial-prev {
+  left: 20px;
+}
+
+.testimonial-next {
+  right: 20px;
+}
+
+.testimonial-prev:hover,
+.testimonial-next:hover {
   background-color: #FF5722; /* Change to your desired hover color */
 }
 

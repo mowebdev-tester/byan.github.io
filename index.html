@@ -792,9 +792,9 @@
           </div>
         </div> 
       
-      <div class="owl-carousel-nav wow fadeInRight">
-        <div class="owl-prev"><i class="fa fa-chevron-left"></i></div>
-        <div class="owl-next"><i class="fa fa-chevron-right"></i></div>
+      <div class="testimonial-nav">
+        <div class="testimonial-prev"><i class="fa fa-chevron-left"></i></div>
+        <div class="testimonial-next"><i class="fa fa-chevron-right"></i></div>
       </div>
     
     <div class="owl-carousel">
@@ -1003,26 +1003,29 @@
 
 <script>
   jQuery(document).ready(function ($) {
-    $('.owl-carousel').owlCarousel({
-      loop: true,
-      margin: 20,
-      nav: true, // Enable navigation arrows
-      dots: false,
-      autoplay: true,
-      autoplayTimeout: 12000, // Increase autoplay timeout to 8 seconds
-      responsive: {
-        0: {
-          items: 1
-        },
-        768: {
-          items: 2
-        },
-        1024: {
-          items: 3
-        }
+  $('.owl-carousel').owlCarousel({
+    loop: true,
+    margin: 20,
+    nav: false, // Disable default navigation
+    dots: false,
+    autoplay: true,
+    autoplayTimeout: 5000,
+    responsive: {
+      0: {
+        items: 1
+      },
+      768: {
+        items: 2
+      },
+      1024: {
+        items: 3
       }
-    });
+    },
+    navContainer: '.testimonial-nav', // Specify the custom navigation container
+    navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>'], // Use custom arrows
   });
+});
+
 </script>
 
 <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script>

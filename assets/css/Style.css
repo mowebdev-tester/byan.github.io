@@ -1793,33 +1793,26 @@ Testimonial
     flex: 1 1 100%;
   }
 }
-/* Circular Arrows */
-.owl-carousel-nav {
+
+.testimonial-nav {
+  position: absolute;
+  left: 20px; /* Adjust the left position as needed */
+  top: 50%; /* Adjust the vertical position as needed */
+  transform: translateY(-50%);
   display: flex;
-  justify-content: center;
-  position: absolute; /* Add this line */
-  top: -40px; /* Adjust this value to control the vertical position */
-  left: 0;
-  right: 0;
+  align-items: center;
+  cursor: pointer;
 }
 
-.owl-carousel-nav .owl-prev,
-.owl-carousel-nav .owl-next {
-  font-size: 24px;
-  background-color: #A20702;
-  color: #fff;
-  border-radius: 50%;
-  padding: 10px;
-  margin: 10px;
-  transition: background-color 0.3s, color 0.3s;
+.testimonial-nav .fa-chevron-left,
+.testimonial-nav .fa-chevron-right {
+  font-size: 20px; /* Adjust the arrow size as needed */
+  color: #A20702; /* Arrow color */
 }
 
-.owl-carousel-nav .owl-prev:hover,
-.owl-carousel-nav .owl-next:hover {
-  background-color: #fff;
-  color: #A20702;
+.testimonial-prev {
+  margin-right: 10px; /* Add space between arrows */
 }
-
 /* 
 ---------------------------------------------
 contact

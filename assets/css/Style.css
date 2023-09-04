@@ -1794,25 +1794,38 @@ Testimonial
   }
 }
 
+/* Add this CSS for styling and positioning the arrows */
 .testimonial-nav {
-  position: absolute;
-  right: 20px; /* Adjust the left position as needed */
-  top: 100%;
-  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.testimonial-prev,
+.testimonial-next {
+  background-color: #A20702;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
+  justify-content: center;
   cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
 }
 
-.testimonial-nav .fa-chevron-left,
-.testimonial-nav .fa-chevron-right {
-  font-size: 20px; /* Adjust the arrow size as needed */
-  color: #A20702; /* Arrow color */
+.testimonial-prev:hover,
+.testimonial-next:hover {
+  background-color: #FF5722; /* Change to your desired hover color */
 }
 
-.testimonial-prev {
-  margin-right: 10px; /* Add space between arrows */
+.fa-chevron-left,
+.fa-chevron-right {
+  font-size: 18px;
+  color: #fff;
 }
+
 /* 
 ---------------------------------------------
 contact

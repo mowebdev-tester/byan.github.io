@@ -1794,9 +1794,16 @@ Testimonial
   }
 }
 
-/* Add this CSS for styling the navigation arrows */
-.testimonialls .owl-nav button.owl-prev,
-.testimonialls .owl-nav button.owl-next {
+/* Style the navigation arrows */
+.testimonial-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px; /* Adjust the spacing from the testimonials */
+}
+
+.testimonial-prev,
+.testimonial-next {
   background-color: #A20702;
   border-radius: 50%;
   width: 40px;
@@ -1806,11 +1813,10 @@ Testimonial
   justify-content: center;
   cursor: pointer;
   transition: background-color 0.3s ease-in-out;
-  margin: 0 5px; /* Add space between arrows */
 }
 
-.testimonialls .owl-nav button.owl-prev:hover,
-.testimonialls .owl-nav button.owl-next:hover {
+.testimonial-prev:hover,
+.testimonial-next:hover {
   background-color: #FF5722; /* Change to your desired hover color */
 }
 

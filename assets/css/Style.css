@@ -1794,30 +1794,33 @@ Testimonial
   }
 }
 
-/* Style the navigation arrows */
-.testimonial-nav {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-top: 20px; /* Adjust the spacing from the testimonials */
+/* Custom Testimonial Carousel Navigation Arrows */
+.owl-carousel .owl-nav .owl-prev,
+.owl-carousel .owl-nav .owl-next {
+  background: #A20702; /* Arrow background color */
+  color: #fff; /* Arrow icon color */
+  font-size: 24px; /* Arrow icon size */
+  border-radius: 50%; /* Make the arrows circular */
+  width: 40px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  line-height: 40px; /* Vertically center the arrow icon */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
-.testimonial-prev,
-.testimonial-next {
-  background-color: #A20702;
-  border-radius: 50%;
-  width: 40px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  cursor: pointer;
-  transition: background-color 0.3s ease-in-out;
+.owl-carousel .owl-nav .owl-prev {
+  left: 0; /* Position the left arrow */
 }
 
-.testimonial-prev:hover,
-.testimonial-next:hover {
-  background-color: #FF5722; /* Change to your desired hover color */
+.owl-carousel .owl-nav .owl-next {
+  right: 0; /* Position the right arrow */
+}
+
+/* Hover effect for arrows (optional) */
+.owl-carousel .owl-nav .owl-prev:hover,
+.owl-carousel .owl-nav .owl-next:hover {
+  background: #555; /* Change background color on hover */
 }
 
 /* 

@@ -1001,7 +1001,7 @@ jQuery(document).ready(function ($) {
   $('.owl-carousel').owlCarousel({
     loop: true,
     margin: 20,
-    nav: false, // Disable default navigation
+    nav: true,
     dots: false,
     autoplay: true,
     autoplayTimeout: 12000,
@@ -1016,8 +1016,6 @@ jQuery(document).ready(function ($) {
         items: 3
       }
     },
-    navContainer: '.testimonial-nav', // Specify the custom navigation container
-    navText: ['<i class="fa fa-chevron-left"></i>', '<i class="fa fa-chevron-right"></i>'], // Use custom arrows
   });
 });
 

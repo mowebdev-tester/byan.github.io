@@ -1819,8 +1819,7 @@ Testimonial
 }
 
 /* Hover effect for arrows (optional) */
-.owl-carousel .owl-nav .owl-prev:hover,
-.owl-carousel .owl-nav .owl-next:hover {
+.owl-carousel .owl-nav .owl-prev:hover{
  background: #A20702; /* Arrow background color */
   color: #fff; /* Arrow icon color */
   font-size: 24px; /* Arrow icon size */
@@ -1832,7 +1831,19 @@ Testimonial
   top: 0%;
   transform: translateY(-50%); /* Change background color on hover */
   left: 0;
-  right: 0;
+}
+.owl-carousel .owl-nav .owl-next:hover{
+  background: #A20702; /* Arrow background color */
+  color: #fff; /* Arrow icon color */
+  font-size: 24px; /* Arrow icon size */
+  border-radius: 50%; /* Make the arrows circular */
+  width: 40px; /* Adjust the width as needed */
+  height: 40px; /* Adjust the height as needed */
+  line-height: 40px; /* Vertically center the arrow icon */
+  position: absolute;
+  top: 0%;
+  transform: translateY(-50%); /* Change background color on hover */
+  left: 0;
 }
 
 /* 

@@ -1802,8 +1802,8 @@ Testimonial
   margin-top: 20px;
 }
 
-.testimonial-prev,
-.testimonial-next {
+.fa-chevron-left,
+.fa-chevron-right {
   background-color: #A20702;
   border-radius: 50%;
   width: 40px;
@@ -1815,15 +1815,9 @@ Testimonial
   transition: background-color 0.3s ease-in-out;
 }
 
-.testimonial-prev:hover,
-.testimonial-next:hover {
+.fa-chevron-left:hover,
+.fa-chevron-right:hover {
   background-color: #FF5722; /* Change to your desired hover color */
-}
-
-.fa-chevron-left,
-.fa-chevron-right {
-  font-size: 18px;
-  color: #fff;
 }
 
 /* 

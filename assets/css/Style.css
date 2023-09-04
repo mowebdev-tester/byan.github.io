@@ -1792,42 +1792,22 @@ Testimonial
     flex: 1 1 100%;
   }
 }
-/* Style for circular navigation arrows */
-.testimonial-arrows {
-  text-align: center;
-  margin-top: 20px; /* Add spacing above the arrows */
-}
-
-.prev-arrow,
-.next-arrow {
-  display: inline-block;
-  width: 40px; /* Adjust the size of the circular arrows */
-  height: 40px; /* Adjust the size of the circular arrows */
-  border-radius: 50%; /* Make them circular */
-  background-color: #A20702; /* Background color for the arrows */
-  color: #fff; /* Text color for the arrows */
-  font-size: 20px; /* Adjust the arrow icon size */
-  line-height: 40px; /* Center the icon vertically */
-  margin: 0 10px; /* Add spacing between the arrows */
-  cursor: pointer;
+/* Circular Arrows */
+.owl-prev,
+.owl-next {
+  font-size: 24px;
+  background-color: #A20702;
+  color: #fff;
+  border-radius: 50%;
+  padding: 10px;
+  margin: 10px;
   transition: background-color 0.3s, color 0.3s;
 }
 
-.prev-arrow:hover,
-.next-arrow:hover {
-  background-color: #000; /* Change color on hover */
-}
-
-/* Customize the arrow icons if needed */
-.prev-arrow i,
-.next-arrow i {
-  font-weight: bold;
-}
-
-/* Adjust the testimonial section's position */
-.testimonials {
-  position: relative;
-  padding-top: 40px; /* Add spacing between the arrows and testimonials */
+.owl-prev:hover,
+.owl-next:hover {
+  background-color: #fff;
+  color: #A20702;
 }
 
 /* 

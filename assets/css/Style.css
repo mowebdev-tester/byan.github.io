@@ -1737,6 +1737,7 @@ Testimonial
     padding: 50px 0;
     text-align: center;
     padding-top: 80px;
+    position: relative;
   }
   .testimonials .section-heading {
   text-align: center;
@@ -1793,8 +1794,17 @@ Testimonial
   }
 }
 /* Circular Arrows */
-.owl-prev,
-.owl-next {
+.owl-carousel-nav {
+  display: flex;
+  justify-content: center;
+  position: absolute; /* Add this line */
+  top: -40px; /* Adjust this value to control the vertical position */
+  left: 0;
+  right: 0;
+}
+
+.owl-carousel-nav .owl-prev,
+.owl-carousel-nav .owl-next {
   font-size: 24px;
   background-color: #A20702;
   color: #fff;
@@ -1804,8 +1814,8 @@ Testimonial
   transition: background-color 0.3s, color 0.3s;
 }
 
-.owl-prev:hover,
-.owl-next:hover {
+.owl-carousel-nav .owl-prev:hover,
+.owl-carousel-nav .owl-next:hover {
   background-color: #fff;
   color: #A20702;
 }

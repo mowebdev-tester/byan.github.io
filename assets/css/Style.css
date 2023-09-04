@@ -1796,8 +1796,7 @@ Testimonial
 
 .testimonial-nav {
   position: absolute;
-  left: 20px; /* Adjust the left position as needed */
-  top: 50%; /* Adjust the vertical position as needed */
+  right: 20px; /* Adjust the left position as needed */
   transform: translateY(-50%);
   display: flex;
   align-items: center;

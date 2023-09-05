@@ -1621,7 +1621,8 @@ Services Style
     max-height: none;
     margin-bottom: 20px;
   }
-  .service-content p{
+  .service-content p,
+  .service-content ul li{
     text-align: left;
   }
 }

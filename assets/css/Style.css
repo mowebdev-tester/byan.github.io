@@ -1558,18 +1558,7 @@ Services Style
 .service-content p{
   margin-top: 30px;
 }
-.service-content p span{
-  text-align: left;
-}
-.service-content p span,
-.service-content ul li{
-  left: 50%;
-}
 
-.service-content ul li{
-  list-style-type: square;
-  text-align: left;
-}
 .service-content p,
 .service-content ul li{
   font-size: 16px;
@@ -1630,11 +1619,12 @@ Services Style
     max-height: none;
     margin-bottom: 20px;
   }
-  .service-content p,
-  .service-content p span
-  .service-content ul li{
+  .service-content p{
     text-align: left;
-    margin: auto;
+  }
+  .service-content ul li{
+    list-style-type: square;
+    text-align: left;
   }
 }
 

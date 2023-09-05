@@ -1541,7 +1541,8 @@ Services Style
 }
 
 .service:hover {
-  background-color: #e63b38;
+  background-color: #fff;
+  color: #A20702;
 }
 
 .service h3 {

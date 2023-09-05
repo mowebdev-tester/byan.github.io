@@ -1561,6 +1561,10 @@ Services Style
 .service-content p span{
   text-align: left;
 }
+.service-content p span,
+.service-content ul li{
+  left: 50%;
+}
 
 .service-content ul li{
   list-style-type: square;
@@ -1627,8 +1631,10 @@ Services Style
     margin-bottom: 20px;
   }
   .service-content p,
+  .service-content p span
   .service-content ul li{
     text-align: left;
+    margin: auto;
   }
 }
 

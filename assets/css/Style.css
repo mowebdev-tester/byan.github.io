@@ -1558,6 +1558,8 @@ Services Style
 .service-content p,
 .service-content li{
   margin-top: 30px;
+  font-size: 16px;
+  line-height: 30px;
   font-weight: 400;
 }
 .service-content p em{

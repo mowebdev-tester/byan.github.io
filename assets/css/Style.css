@@ -1530,7 +1530,7 @@ Services Style
 }
 
 .service {
-  flex: 1 1 auto;
+  flex: 1;
   padding: 20px;
   background-color: #a20702;
   color: white;
@@ -1597,7 +1597,7 @@ Services Style
 
   .service {
     flex: 1 1 calc(100% - 40px);
-    width: auto;
+    width: 200px;
   }
 
   .examples {

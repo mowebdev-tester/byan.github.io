@@ -1599,6 +1599,7 @@ Services Style
   .service {
     flex: 1 1 calc(100% - 40px);
     width: 300px;
+    text-align: center;
   }
 
   .examples {

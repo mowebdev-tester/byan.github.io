@@ -1555,9 +1555,11 @@ Services Style
   margin-top: 20px;
   text-align: center;
 }
+.service-content p{
+  margin-top: 30px;
+}
 .service-content p,
 .service-content ul li{
-  margin-top: 30px;
   font-size: 16px;
   line-height: 30px;
   font-weight: 400;

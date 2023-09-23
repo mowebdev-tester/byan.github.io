@@ -966,8 +966,12 @@
       });
       if (!isActive) {
         content.classList.add('active');
-        // Scroll to the opened content smoothly at the start of the block
-        content.scrollIntoView({ behavior: 'smooth', block: 'start' });
+        
+        // Calculate the target scroll position 25 pixels above the content
+        const targetScrollPosition = content.getBoundingClientRect().top + window.scrollY - 75;
+        
+        // Scroll to the calculated position smoothly
+        window.scrollTo({ top: targetScrollPosition, behavior: 'smooth' });
       }
     }
   }
